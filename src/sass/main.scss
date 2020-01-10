@@ -1,0 +1,103 @@
+body {
+  font-size: 24px;
+}
+
+#input {
+  padding: 10px;
+  &[placeholder] {
+    font-size: 20px;
+  }
+}
+
+#add-task {
+  border: 1px solid green;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  border: 1px solid green;
+  padding: 0 10px;
+  margin-right: 5px;
+  &:hover {
+    background: lightgreen;
+    color: white;
+  }
+}
+
+.delete {
+  border: 1px solid green;
+  padding: 0 10px;
+  margin-right: 5px;
+  &:hover {
+    background: lightgreen;
+    color: white;
+  }
+}
+
+.upgrade {
+  border: 1px solid green;
+  padding: 0 10px;
+  &:hover {
+    background: lightgreen;
+    color: white;
+  }
+}
+
+#add-task:hover {
+  background: lightgreen;
+  color: white;
+}
+
+h1 {
+  color: blue;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+strong {
+  margin-right: 5px;
+}
+
+.saveChanges {
+  display: none;
+  border: 1px solid green;
+  padding: 0 10px;
+  margin-right: 5px;
+  &:hover {
+    background: lightgreen;
+    color: white;
+  }
+}
+
+#toogle {
+  display: none;
+}
+
+#inputEdit {
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.done-btn {
+  text-decoration: none;
+  background: lawngreen;
+  padding: 5px 10px;
+  color: white;
+  &:hover {
+    background: pink;
+  }
+}
+
+
+
+
